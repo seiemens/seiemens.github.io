@@ -18,6 +18,7 @@
     background: linear-gradient(90deg,#0f7 50%,#00fffb 0);
     border-radius: 50%;
     animation: rotate 5s linear infinite;
+    overflow: hidden;
 }
 
 @keyframes rotate {

@@ -14,20 +14,9 @@
     <div id="blob"></div>
     <div class="container">
         <div class="landing">
-            <span>we do stuff.</span>
-            <span>not a lot, but we do.</span>
+            <span>we do stuff.<br/>not a lot, but we do.</span>
         </div>
     </div>
 </body>
-<script>
-    function track() {
-    let tracer = document.getElementById("blob");
-    let {clientX, clientY} = window.event;
-    
-    tracer.animate({
-      left: `${clientX}px`,
-      top: `${clientY}px`,
-    },{duration:2000, fill:"forwards"});
-}
-</script>
+<script src="./scripts/blob.js"></script>
 </html>
