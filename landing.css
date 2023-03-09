@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.landing{
+    height: 80%;
+    width: 60%;
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    z-index: 2;
+    display: flex;
+    border: 1px solid red;
+    padding: 1rem;
+    flex-direction: column;
+}
