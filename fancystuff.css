@@ -30,3 +30,36 @@
         transform: rotateZ(360deg);
     }
 }
+
+
+.hyperlink-pre{
+    font-family: "Space Grotesk",sans-serif;
+    font-size: 1.5rem;
+    transform: skew(0,-10deg);
+}
+.hyperlink {
+    letter-spacing: 2rem;
+    order: 2;
+    color: #fde9ff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: clamp(3rem, 10vw, 6rem);
+    line-height: 1em;
+    text-shadow: 3px 1px 1px #ff00e6, 2px 2px 1px #165bfb, 4px 2px 1px #ff00e6,
+      3px 3px 1px #165bfb, 5px 3px 1px #ff00e6, 4px 4px 1px #165bfb,
+      6px 4px 1px #ff00e6, 5px 5px 1px #165bfb, 7px 5px 1px #ff00e6,
+      6px 6px 1px #165bfb, 8px 6px 1px #ff00e6, 7px 7px 1px #165bfb,
+      9px 7px 1px #ff00e6;
+      transform: skew(0,-10deg);
+}
+.hyperlink span::before{
+    content: attr(data-text);
+    position: absolute;
+    text-shadow: 2px 2px 1px #000, -1px -1px 1px #000,
+    -2px 2px 1px #000, 1px -1px 1px #000;
+    z-index: 1;
+}
+.fuckno, .fuckyes, .bottom {
+    display: block;
+}
+
